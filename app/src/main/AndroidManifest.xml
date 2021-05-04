@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.spamfilteringusingai_2">
+    package="com.example.spamfilterapp">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
@@ -18,11 +18,11 @@
         android:theme="@style/Theme.Design.NoActionBar"
         android:usesCleartextTraffic="true"
         tools:targetApi="n">
-        <activity android:name=".MainActivity7"></activity>
-        <activity android:name=".MainActivity6" />
-        <activity android:name=".MainActivity5" />
-        <activity android:name=".MainActivity4" />
-        <activity android:name=".MainActivity">
+        <activity android:name="com.example.spamfilterapp.MainActivity7"></activity>
+        <activity android:name="com.example.spamfilterapp.MainActivity6" />
+        <activity android:name="com.example.spamfilterapp.MainActivity5" />
+        <activity android:name="com.example.spamfilterapp.MainActivity4" />
+        <activity android:name="com.example.spamfilterapp.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

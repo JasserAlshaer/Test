@@ -1,4 +1,4 @@
-package com.example.spamfilteringusingai_2;
+package com.example.spamfilterapp;
 
 import org.junit.Test;
 

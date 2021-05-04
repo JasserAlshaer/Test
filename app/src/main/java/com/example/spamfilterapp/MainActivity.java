@@ -1,4 +1,4 @@
-   package com.example.spamfilteringusingai_2;
+   package com.example.spamfilterapp;
 
    import android.content.Context;
 import android.content.Intent;
@@ -53,7 +53,7 @@ import java.util.Arrays;
            GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
                    .requestScopes(
                    new Scope(GmailScopes.MAIL_GOOGLE_COM))
-                   .requestIdToken("884385265121-b0gtdrn1s0dkn2u1vk8m6qlp98mg5s5j.apps.googleusercontent.com")
+                   .requestIdToken("827601706886-in0nu6hfdi0heeescec6vnbgkesvi5sr.apps.googleusercontent.com")
                    .requestEmail()
                    .build();
            mGoogleSignInClient = GoogleSignIn.getClient(this, gso);

@@ -1,4 +1,4 @@
-package com.example.spamfilteringusingai_2;
+package com.example.spamfilterapp;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
